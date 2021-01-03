@@ -3,3 +3,4 @@ class Formula extends React.Component {
       return <div className="formulaScreen">{this.props.formula}</div>;
     }
   }
+  export default Formula;
