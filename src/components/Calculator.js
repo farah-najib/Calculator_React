@@ -163,7 +163,7 @@ class Calculator extends React.Component {
   
     render() {
       return (
-        <div>
+        
           <div className="calculator">
             <Formula formula={this.state.formula.replace(/x/g, '⋅')} />
             <Output currentValue={this.state.currentVal} />
@@ -175,14 +175,8 @@ class Calculator extends React.Component {
               operators={this.handleOperators}
             />
           </div>
-          <div className="author">
-            {' '}
-            Designed and Coded By <br />
-            <a href="https://goo.gl/6NNLMG" target="_blank">
-              Peter Weinberg
-            </a>
-          </div>
-        </div>
+         
+        
       );
     }
   }
